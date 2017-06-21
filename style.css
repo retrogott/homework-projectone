@@ -46,6 +46,7 @@ header {
  height: 100%;
  top: 50px;
  background-size: cover;
+ background-image: url(images/mainbackground.jpg);
 }
 
 #firstcontent {
