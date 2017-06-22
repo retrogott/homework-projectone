@@ -1,0 +1,45 @@
+#firstcontent {
+    display: flex;
+}
+
+@media screen and (max-width: 1227px) {
+ .content {
+ display: flex;
+ flex-wrap: wrap;
+ position: relative;
+ width: 100%;
+ top: 800px;
+ background-color: white;
+ overflow: hidden;
+}
+
+.content div {
+ display: flex;
+ flex-wrap: wrap;
+ border: 1px solid red;
+ margin-top: 20px;
+ margin-left: 20px;
+ height: 600px;
+ width: 100%;
+}
+
+#postoneborder {
+ display: block;
+ padding-right: 55px;
+ align-content: center;
+ border: 1px solid red;
+ margin-top: 20px;
+ margin-right: 30px;
+ height: 790px;
+ width: 100%;
+}
+
+#postoneborder a {
+ padding-left: 45px;
+}
+
+#postonecontain {
+ margin: 0;
+}
+
+}
