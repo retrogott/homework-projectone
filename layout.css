@@ -16,7 +16,10 @@
         font-size: 75px;
     }
     #thename {
-       padding-top: 100px;
+        padding-top: 100px;
+    }
+    .postcontainter {
+        margin-top: 100px;
     }
     .content {
         display: flex;
@@ -97,9 +100,7 @@
     .content div a {
         padding-left: 45px;
     }
-    #postonecontain {
-        
-    }
+    #postonecontain {}
     #secondpostcontain {
         margin: 0;
     }
