@@ -24,7 +24,6 @@
 
 #thename {
     display: flex;
-    flex-wrap: wrap;
     margin-top: 150px;
     font-size: 170px;
     font-family: 'Mogra', cursive;
@@ -43,16 +42,28 @@ header {
     z-index: 10;
 }
 
-#banner {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    top: 50px;
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.postcontainter {
     display: flex;
     justify-content: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
     background-size: cover;
+    background-position: center;
     background-image: url(images/mainbackground.jpg);
-    background-position: center center;
+    background-color: #AECEDD;
 }
 
 .content {
@@ -60,7 +71,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     position: relative;
-    width: 100%;
+    max-width: 1920px;
     top: 800px;
     height: 100%;
     background-color: #E8F6FA;
@@ -69,8 +80,10 @@ header {
 
 .content div {
     display: flex;
+    justify-content: center;
     margin-top: 20px;
-    margin-left: 23px;
+    margin-left: 15px;
+    margin-right: 15px;
     height: 690px;
     width: 480px;
 }
@@ -144,7 +157,6 @@ header {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
     width: 100%;
     height: 100%;
 }
@@ -178,7 +190,6 @@ header {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
     width: 100%;
     height: 100%;
 }
@@ -214,7 +225,6 @@ header {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
     width: 100%;
     height: 100%;
 }
@@ -254,7 +264,6 @@ header {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
     width: 100%;
     height: 100%;
 }
@@ -283,7 +292,6 @@ header {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
     width: 100%;
     height: 100%;
 }
@@ -308,7 +316,6 @@ header {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
     width: 100%;
     height: 100%;
 }
