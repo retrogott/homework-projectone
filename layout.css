@@ -2,12 +2,18 @@
     header {
         height: 150px;
     }
+
+    #myCarousel {
+        margin-top: 380px;
+    }
+
     #postoneborder a {
         text-decoration: none;
         color: black;
         font-size: 55px;
         font-family: 'Acme', sans-serif;
     }
+
     #navigationbar li {
         margin-top: 30px;
         display: inline-block;
@@ -15,12 +21,24 @@
         margin-left: 120px;
         font-size: 75px;
     }
+
     #thename {
-        padding-top: 100px;
+        display: flex;
+        margin-top: 200px;
+        font-size: 120px;
+        font-family: 'Mogra', cursive;
+        color: #F73946;
     }
+
+    #thenameelse {
+        font-size: 150px;
+        padding-top: 70px;
+    }
+
     .postcontainter {
         margin-top: 100px;
     }
+
     .content {
         display: flex;
         flex-wrap: wrap;
@@ -30,6 +48,7 @@
         background-color: #E8F6FA;
         overflow: hidden;
     }
+
     .content div {
         display: flex;
         flex-wrap: wrap;
@@ -37,10 +56,11 @@
         height: 600px;
         width: 100%;
     }
-    
+
     .content div a {
         margin-right: 20px;
     }
+
     #postoneborder {
         display: block;
         padding-right: 55px;
@@ -51,6 +71,7 @@
         height: 700px;
         width: 100%;
     }
+
     #postsecondborder {
         display: block;
         padding-right: 55px;
@@ -61,6 +82,7 @@
         height: 700px;
         width: 100%;
     }
+
     #postthirdborder {
         display: block;
         padding-right: 55px;
@@ -71,6 +93,7 @@
         height: 700px;
         width: 100%;
     }
+
     #postfourthborder {
         display: block;
         padding-right: 55px;
@@ -81,6 +104,7 @@
         height: 700px;
         width: 100%;
     }
+
     #postfiveborder {
         display: block;
         padding-right: 55px;
@@ -91,6 +115,7 @@
         height: 700px;
         width: 100%;
     }
+
     #postsixthborder {
         display: block;
         padding-right: 55px;
@@ -101,22 +126,30 @@
         height: 700px;
         width: 100%;
     }
+
     .content div a {
         padding-left: 45px;
     }
-    #postonecontain {}
+
+    #postonecontain {
+    }
+
     #secondpostcontain {
         margin: 0;
     }
+
     #thirdpostcontain {
         margin: 0;
     }
+
     #fourthpostcontain {
         margin: 0;
     }
+
     #fifthpostcontain {
         margin: 0;
     }
+
     #sixthpostcontain {
         margin: 0;
     }

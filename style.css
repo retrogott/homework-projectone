@@ -12,22 +12,16 @@
     padding-left: 20px;
     padding-right: 20px;
     display: inline-block;
-    margin-top: 20px;
-    font-size: 35px;
+    margin-top: 13px;
+    text-align: center;
+    font-size: 45px;
 }
 
 #navigationbar li a {
     text-align: center;
+    font-family: 'Fresca', sans-serif;
     text-decoration: none;
     color: #F6F6F6;
-}
-
-#thename {
-    display: flex;
-    margin-top: 150px;
-    font-size: 170px;
-    font-family: 'Mogra', cursive;
-    color: #F73946;
 }
 
 body {
@@ -40,6 +34,10 @@ header {
     background-color: black;
     width: 100%;
     z-index: 2;
+}
+
+header img {
+    display: none;
 }
 
 .container {
@@ -74,7 +72,7 @@ header {
     max-width: 2000px;
     padding-bottom: 50px;
     padding-top: 30px;
-    top: 800px;
+    top: 500px;
     height: 100%;
     background-color: #E8F6FA;
     overflow: hidden;
@@ -100,52 +98,88 @@ header {
     font-family: 'Acme', sans-serif;
 }
 
-#postone {
-    display: flex;
-    justify-content: center;
+#postonelink:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+#secondpostlink:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+#thirdpostlink:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+#fourthpostlink:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+#fifthpostlink:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+#sixthpostlink:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+#postonelink {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
     background-image: url("images/post01/girl.jpg");
-    background-position: center;
-    background-size: cover;
 }
 
-#secondpost {
-    display: flex;
-    justify-content: center;
+#secondpostlink {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
     background-image: url("images/post02/naazpressshot.jpg");
-    background-position: center;
-    background-size: cover;
 }
 
-#thirdpost {
-    display: flex;
-    justify-content: center;
+#thirdpostlink {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
     background-image: url("images/post03/swimwear2.jpg");
-    background-position: center;
-    background-size: cover;
 }
 
-#fourthpost {
-    display: flex;
-    justify-content: center;
+#fourthpostlink {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
     background-image: url("images/post04/ninelives7.jpg");
-    background-position: center;
-    background-size: cover;
 }
 
-#fifthpost {
-    display: flex;
-    justify-content: center;
+#fifthpostlink {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
     background-image: url("images/post05/sydneyfashion1.jpg");
-    background-position: center;
-    background-size: cover;
 }
 
-#sixthpost {
-    display: flex;
-    justify-content: center;
-    background-image: url("images/post06/oceanway3.jpg");
+#sixthpostlink {
+    margin: 0;
+    width: 100%;
+    height: 100%;
     background-position: center;
     background-size: cover;
+    background-image: url("images/post06/oceanway3.jpg");
 }
 
 #postonecontain {
@@ -355,7 +389,7 @@ header {
 }
 
 #postsecondborder {
-   display: inline-block;
+    display: inline-block;
     padding-left: 35px;
     border: 2px solid red;
     align-content: center;
@@ -375,7 +409,7 @@ header {
 }
 
 #postfourthborder {
-   display: inline-block;
+    display: inline-block;
     padding-left: 35px;
     border: 2px solid red;
     align-content: center;
@@ -402,4 +436,41 @@ header {
     margin-top: 20px;
     height: 790px;
     width: 550px;
+}
+
+.carousel-indicators li {
+    visibility: hidden;
+}
+
+#carouselToCenter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+}
+
+#myCarousel {
+    width: 1000px;
+}
+
+#myCarousel img {
+    margin: auto;
+    max-height: 500px;
+}
+
+#thename {
+    display: flex;
+    margin-top: 100px;
+    font-size: 60px;
+    font-family: 'Mogra', cursive;
+    color: #F73946;
+}
+
+#thenameelse {
+    display: flex;
+    margin-top: 100px;
+    font-size: 160px;
+    font-family: 'Mogra', cursive;
+    color: #F73946;
 }
