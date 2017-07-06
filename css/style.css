@@ -60,7 +60,7 @@ header img {
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-image: url(images/mainbackground.jpg);
+    background-image: url(../images/mainbackground.jpg);
     background-color: #AECEDD;
 }
 
@@ -134,7 +134,7 @@ header img {
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url("images/post01/girl.jpg");
+    background-image: url("../images/post01/girl.jpg");
 }
 
 #secondpostlink {
@@ -143,7 +143,7 @@ header img {
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url("images/post02/naazpressshot.jpg");
+    background-image: url("../images/post02/naazpressshot.jpg");
 }
 
 #thirdpostlink {
@@ -152,7 +152,7 @@ header img {
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url("images/post03/swimwear2.jpg");
+    background-image: url("../images/post03/swimwear2.jpg");
 }
 
 #fourthpostlink {
@@ -161,7 +161,7 @@ header img {
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url("images/post04/ninelives7.jpg");
+    background-image: url("../images/post04/ninelives7.jpg");
 }
 
 #fifthpostlink {
@@ -170,7 +170,7 @@ header img {
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url("images/post05/sydneyfashion1.jpg");
+    background-image: url("../images/post05/sydneyfashion1.jpg");
 }
 
 #sixthpostlink {
@@ -179,7 +179,7 @@ header img {
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url("images/post06/oceanway3.jpg");
+    background-image: url("../images/post06/oceanway3.jpg");
 }
 
 #postonecontain {
