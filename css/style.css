@@ -474,3 +474,43 @@ header img {
     font-family: 'Mogra', cursive;
     color: #F73946;
 }
+
+
+#slidebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    top: 5px;
+    width:350px;
+    height:50px;
+    padding:10px;
+    margin-bottom: 50px;
+    background: #FF7070;
+    position:fixed;
+    right:-500px;
+    line-height:18px;
+    z-index:1000;
+    box-shadow:-3px 3px 15px #ddd;
+    -moz-box-shadow:-3px 3px 15px #ddd;
+    -webkit-box-shadow:-3px 3px 15px #ddd;
+    -o-box-shadow:-3px 3px 15px #ddd;
+    
+}
+
+#facebookslider {
+    color: #FFFFFF;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+}
+
+.close{
+    position:absolute;
+    cursor:pointer;
+    font-size: 17px;
+    top:5px;
+    right:10px;
+    text-decoration:none;
+    border:none
+}

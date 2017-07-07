@@ -1,4 +1,8 @@
 @media screen and (max-width: 1227px) {
+    #slidebox {
+        display: none;
+    }
+    
     header {
         height: 150px;
     }
